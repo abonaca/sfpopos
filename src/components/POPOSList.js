@@ -2,10 +2,11 @@
 
 import React from 'react';
 import POPOSSpace from './POPOSSpace';
+import '../stylesheets/POPOSList.css';
 
 function POPOSList() {
   return (
-    <div>
+    <div className="POPOSList">
       <POPOSSpace 
         image="150-california-st.jpg"
         name="150 California"
